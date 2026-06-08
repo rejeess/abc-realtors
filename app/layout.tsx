@@ -28,10 +28,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
-        <Script
-          src="https://3beeez.com/widget-script?installToken=8b17a9852117b20c9556cb127f68b3b206269f83&position=bottom-right&iconColor=%23e1ab60"
-          strategy="afterInteractive"
-        />
+       <script src="https://3beeez.com/widget-script?installToken=76a725cb5b3b12a156e9d7aa25364499c6b1ecb7&position=bottom-right&iconColor=%23e1b860" async></script>
       </body>
     </html>
   );
