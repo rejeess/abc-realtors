@@ -53,15 +53,15 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-gray-400">
               <li className="flex items-start gap-2">
                 <span className="text-gold-500 mt-0.5">📍</span>
-                <span>4820 E Camelback Rd, Suite 200<br />Scottsdale, AZ 85251</span>
+                <span>xxxx E xxxx Rd, Suite xxx<br />xxxx, XX xxxx</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-gold-500">📞</span>
-                <span>(480) 555-0182</span>
+                <span>(xxx) xxx-xxxx</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-gold-500">✉️</span>
-                <span>hello@abcrealtors.com</span>
+                <span>----@abcrealtors.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-gold-500">🕐</span>
