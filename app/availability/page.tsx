@@ -104,7 +104,7 @@ export default function AvailabilityPage() {
 
                 <div>
                   <label className="label">Property Address (if applicable)</label>
-                  <input name="property" value={form.property} onChange={handleChange} className="input-field" placeholder="e.g. 142 Oakwood Drive, Scottsdale or 'any 4-bed in Chandler'" />
+                  <input name="property" value={form.property} onChange={handleChange} className="input-field" placeholder="e.g. 142 Oakwood Drive, Crystalvale or 'any 4-bed in Riverstone'" />
                 </div>
 
                 <h2 className="text-white font-semibold text-xl pt-2">Preferred Appointment</h2>
@@ -179,8 +179,8 @@ export default function AvailabilityPage() {
                 <li className="flex items-start gap-3">
                   <span className="text-gold-500 text-base">📍</span>
                   <div>
-                    <div className="text-white font-medium">4820 E Camelback Rd</div>
-                    <div className="text-xs">Suite 200, Scottsdale, AZ 85251</div>
+                    <div className="text-white font-medium">4820 E Crystalview Rd</div>
+                    <div className="text-xs">Suite 200, Crystalvale, EL 10251</div>
                   </div>
                 </li>
               </ul>

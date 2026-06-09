@@ -12,8 +12,8 @@ export function Footer() {
               <span className="text-white font-semibold text-lg">Realtors</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Arizona&apos;s trusted real estate partner since 2009. Helping families find their
-              perfect home across the Valley.
+              Eldoria&apos;s trusted real estate partner since 2009. Helping families find their
+              perfect home across the region.
             </p>
           </div>
 
@@ -73,7 +73,7 @@ export function Footer() {
 
         <div className="mt-12 pt-6 border-t border-navy-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500">
           <p>&copy; {new Date().getFullYear()} ABC Realtors LLC. All rights reserved.</p>
-          <p>Licensed in Arizona | DRE #SA699543000</p>
+          <p>Licensed in Eldoria | DRE #EL123456789</p>
         </div>
       </div>
     </footer>

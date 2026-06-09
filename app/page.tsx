@@ -5,7 +5,7 @@ const featuredListings = [
   {
     id: 1,
     title: "Oakwood Estate",
-    address: "142 Oakwood Drive, Scottsdale, AZ",
+    address: "142 Oakwood Drive, Crystalvale, EL",
     price: "$875,000",
     type: "sale",
     beds: 4,
@@ -16,7 +16,7 @@ const featuredListings = [
   {
     id: 2,
     title: "Sunset Villa",
-    address: "55 Sunset Ridge, Paradise Valley, AZ",
+    address: "55 Sunset Ridge, Mistvale, EL",
     price: "$1,450,000",
     type: "sale",
     beds: 5,
@@ -27,7 +27,7 @@ const featuredListings = [
   {
     id: 3,
     title: "Modern Skyview",
-    address: "901 Skyview Blvd #12A, Phoenix, AZ",
+    address: "901 Skyview Blvd #12A, Solhaven, EL",
     price: "$3,200/mo",
     type: "rent",
     beds: 2,
@@ -48,7 +48,7 @@ const services = [
   {
     icon: "🏡",
     title: "Buy a Home",
-    desc: "Expert guidance from first look to closing day. We know every neighborhood in the Valley.",
+    desc: "Expert guidance from first look to closing day. We know every neighborhood in the region.",
   },
   {
     icon: "💰",
@@ -84,11 +84,11 @@ export default function HomePage() {
           <p className="section-eyebrow mb-4">Welcome to ABC Realtors</p>
           <h1 className="font-display text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
             Find Your <span className="text-gold-500">Dream Home</span>
-            <br />in Arizona
+            <br />in Eldoria
           </h1>
           <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10">
             From cozy family homes to luxury estates, ABC Realtors has guided
-            Arizona families and investors for over 15 years. Let us find your
+            Eldoria families and investors for over 15 years. Let us find your
             perfect match.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

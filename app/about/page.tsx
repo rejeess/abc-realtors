@@ -5,7 +5,7 @@ const team = [
   {
     name: "Sarah Mitchell",
     title: "Founder & Principal Broker",
-    bio: "With 20+ years in Arizona real estate, Sarah built ABC Realtors from the ground up. She specializes in luxury homes and investment portfolios in Scottsdale and Paradise Valley.",
+    bio: "With 20+ years in Eldoria real estate, Sarah built ABC Realtors from the ground up. She specializes in luxury homes and investment portfolios in Crystalvale and Mistvale.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
     sales: "320+ homes sold",
   },
@@ -19,24 +19,24 @@ const team = [
   {
     name: "Emily Nguyen",
     title: "Luxury Properties Specialist",
-    bio: "Emily's design eye and market knowledge make her the go-to agent for clients seeking premium properties. She consistently ranks in the top 5% of Arizona agents.",
+    bio: "Emily's design eye and market knowledge make her the go-to agent for clients seeking premium properties. She consistently ranks in the top 5% of Eldoria agents.",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80",
-    sales: "Top 5% in AZ",
+    sales: "Top 5% in EL",
   },
   {
     name: "Marcus Thompson",
     title: "Commercial & Investment Lead",
-    bio: "Marcus brings a Wall Street background to Arizona real estate. He advises investors on multi-family, commercial, and short-term rental acquisitions.",
+    bio: "Marcus brings a Wall Street background to Eldoria real estate. He advises investors on multi-family, commercial, and short-term rental acquisitions.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
     sales: "$400M+ in transactions",
   },
 ];
 
 const milestones = [
-  { year: "2009", event: "ABC Realtors founded by Sarah Mitchell in Scottsdale" },
-  { year: "2012", event: "Expanded to serve all of Maricopa County" },
+  { year: "2009", event: "ABC Realtors founded by Sarah Mitchell in Crystalvale" },
+  { year: "2012", event: "Expanded to serve all of Eldoria Valley" },
   { year: "2015", event: "Reached 100 homes sold milestone" },
-  { year: "2018", event: "Opened second office in Gilbert, AZ" },
+  { year: "2018", event: "Opened second office in Fernbrook, EL" },
   { year: "2021", event: "Launched investment property division" },
   { year: "2024", event: "Surpassed $2 billion in total sales volume" },
 ];
@@ -57,7 +57,7 @@ export default function AboutPage() {
         <p className="section-eyebrow mb-3">Our Story</p>
         <h1 className="section-heading text-4xl md:text-5xl mb-4">About ABC Realtors</h1>
         <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-          Since 2009, we&apos;ve been Arizona&apos;s most trusted real estate partner — putting clients
+          Since 2009, we&apos;ve been Eldoria&apos;s most trusted real estate partner — putting clients
           first, every time.
         </p>
       </section>
@@ -75,7 +75,7 @@ export default function AboutPage() {
                 a client-first philosophy that has shaped everything we do.
               </p>
               <p>
-                Today, our team of 12 licensed agents covers the entire Phoenix Metro area — from
+                Today, our team of 12 licensed agents covers the entire Eldoria Metro area — from
                 entry-level homes to multi-million dollar estates. We combine local expertise with
                 modern technology to give our clients a competitive edge in any market.
               </p>
@@ -99,7 +99,7 @@ export default function AboutPage() {
             </div>
             <div className="absolute -bottom-4 -left-4 bg-navy-800 border border-gold-500/30 rounded-xl p-4 shadow-xl">
               <div className="text-gold-500 text-2xl font-display font-bold">15+ Years</div>
-              <div className="text-gray-400 text-sm">Serving Arizona</div>
+              <div className="text-gray-400 text-sm">Serving Eldoria</div>
             </div>
           </div>
         </div>

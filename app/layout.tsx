@@ -12,9 +12,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "ABC Realtors – Find Your Dream Home in Arizona",
+  title: "ABC Realtors – Find Your Dream Home in Eldoria",
   description:
-    "ABC Realtors is Arizona's premier real estate agency. Browse luxury homes, investment properties, and rentals across Scottsdale, Phoenix, and the greater Valley.",
+    "ABC Realtors is Eldoria's premier real estate agency. Browse luxury homes, investment properties, and rentals across Crystalvale, Solhaven, and the greater Eldoria Valley.",
 };
 
 export default function RootLayout({
@@ -28,7 +28,11 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
-       <script src="https://3beeez.com/widget-script?installToken=76a725cb5b3b12a156e9d7aa25364499c6b1ecb7&position=bottom-right&iconColor=%23e1b860" async></script>
+        <script src="https://3beeez.com/widget-script?installToken=76a725cb5b3b12a156e9d7aa25364499c6b1ecb7&position=bottom-right&iconColor=%23e1b860" async></script>
+        {/* <script
+          src="/widget-script?installToken=d02304a79ae33e03c2ed8264f019285ec67b02ef"
+          data-position="bottom-right"
+        ></script> */}
       </body>
     </html>
   );

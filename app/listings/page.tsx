@@ -7,7 +7,7 @@ const properties = [
   {
     id: 1,
     title: "Oakwood Estate",
-    address: "142 Oakwood Drive, Scottsdale, AZ 85251",
+    address: "142 Oakwood Drive, Crystalvale, EL 10251",
     price: "$875,000",
     type: "sale",
     beds: 4,
@@ -15,13 +15,13 @@ const properties = [
     sqft: "2,850",
     garage: 2,
     year: 2018,
-    desc: "Stunning single-family home in the heart of Scottsdale. Features an open-concept kitchen, resort-style pool, and mountain views.",
+    desc: "Stunning single-family home in the heart of Crystalvale. Features an open-concept kitchen, resort-style pool, and mountain views.",
     image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
   },
   {
     id: 2,
     title: "Sunset Villa",
-    address: "55 Sunset Ridge, Paradise Valley, AZ 85253",
+    address: "55 Sunset Ridge, Mistvale, EL 10253",
     price: "$1,450,000",
     type: "sale",
     beds: 5,
@@ -29,13 +29,13 @@ const properties = [
     sqft: "4,100",
     garage: 3,
     year: 2020,
-    desc: "Luxury estate in Paradise Valley with panoramic sunset views, chef's kitchen, home theater, and private tennis court.",
+    desc: "Luxury estate in Mistvale with panoramic sunset views, chef's kitchen, home theater, and private tennis court.",
     image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&q=80",
   },
   {
     id: 3,
     title: "Modern Skyview",
-    address: "901 Skyview Blvd #12A, Phoenix, AZ 85004",
+    address: "901 Skyview Blvd #12A, Solhaven, EL 10004",
     price: "$3,200/mo",
     type: "rent",
     beds: 2,
@@ -49,7 +49,7 @@ const properties = [
   {
     id: 4,
     title: "Heritage Manor",
-    address: "22 Heritage Lane, Gilbert, AZ 85296",
+    address: "22 Heritage Lane, Fernbrook, EL 10296",
     price: "$980,000",
     type: "sale",
     beds: 4,
@@ -63,7 +63,7 @@ const properties = [
   {
     id: 5,
     title: "The Palms",
-    address: "300 Palm Court Drive, Chandler, AZ 85225",
+    address: "300 Palm Court Drive, Riverstone, EL 10225",
     price: "$2,800/mo",
     type: "rent",
     beds: 3,
@@ -77,7 +77,7 @@ const properties = [
   {
     id: 6,
     title: "Riverside Cottage",
-    address: "78 River Bend Road, Tempe, AZ 85281",
+    address: "78 River Bend Road, Ashford, EL 10281",
     price: "$525,000",
     type: "sale",
     beds: 3,
@@ -85,13 +85,13 @@ const properties = [
     sqft: "1,640",
     garage: 1,
     year: 2008,
-    desc: "Charming cottage near Tempe Town Lake. Hardwood floors, updated kitchen, private backyard garden oasis.",
+    desc: "Charming cottage near Ashford Lake. Hardwood floors, updated kitchen, private backyard garden oasis.",
     image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
   },
   {
     id: 7,
     title: "Crestview Heights",
-    address: "8 Crestview Boulevard, Scottsdale, AZ 85254",
+    address: "8 Crestview Boulevard, Crystalvale, EL 10254",
     price: "$2,100,000",
     type: "sale",
     beds: 6,
@@ -105,7 +105,7 @@ const properties = [
   {
     id: 8,
     title: "Downtown Loft",
-    address: "400 Main Street #5B, Phoenix, AZ 85003",
+    address: "400 Main Street #5B, Solhaven, EL 10003",
     price: "$1,900/mo",
     type: "rent",
     beds: 1,
@@ -113,7 +113,7 @@ const properties = [
     sqft: "780",
     garage: 1,
     year: 2020,
-    desc: "Industrial-chic loft in the heart of downtown Phoenix. Exposed brick, high ceilings, walking distance to dining and nightlife.",
+    desc: "Industrial-chic loft in the heart of downtown Solhaven. Exposed brick, high ceilings, walking distance to dining and nightlife.",
     image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
   },
 ];
@@ -138,7 +138,7 @@ export default function ListingsPage() {
         <p className="section-eyebrow mb-3">Browse Properties</p>
         <h1 className="section-heading text-4xl md:text-5xl mb-4">Property Listings</h1>
         <p className="text-gray-400 text-lg max-w-xl mx-auto">
-          Explore homes for sale and rent across Scottsdale, Phoenix, Tempe, Chandler, Gilbert, and Paradise Valley.
+          Explore homes for sale and rent across Crystalvale, Solhaven, Ashford, Riverstone, Fernbrook, and Mistvale.
         </p>
       </section>
 

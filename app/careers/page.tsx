@@ -5,12 +5,12 @@ const openings = [
     id: 1,
     title: "Licensed Real Estate Agent",
     type: "Full-Time",
-    location: "Scottsdale, AZ",
+    location: "Crystalvale, EL",
     salary: "$65,000 – $120,000+",
     summary:
       "Join our top-producing team and build your book of business with the support of an established brand, lead pipeline, and mentorship from senior agents.",
     requirements: [
-      "Active Arizona Real Estate License",
+      "Active Eldoria Real Estate License",
       "Minimum 1 year of real estate sales experience",
       "Strong communication and negotiation skills",
       "Self-motivated with a client-first mindset",
@@ -21,7 +21,7 @@ const openings = [
     id: 2,
     title: "Property Marketing Coordinator",
     type: "Full-Time",
-    location: "Scottsdale, AZ (Hybrid)",
+    location: "Crystalvale, EL (Hybrid)",
     salary: "$48,000 – $60,000",
     summary:
       "Create compelling property listings, manage social media campaigns, and coordinate professional photography and video walkthroughs to showcase our listings.",
@@ -37,7 +37,7 @@ const openings = [
     id: 3,
     title: "Client Relations Manager",
     type: "Full-Time",
-    location: "Phoenix, AZ",
+    location: "Solhaven, EL",
     salary: "$55,000 – $72,000",
     summary:
       "Be the first point of contact for new leads and past clients. You'll coordinate follow-ups, schedule viewings, manage CRM data, and ensure every client feels genuinely cared for.",
@@ -53,13 +53,13 @@ const openings = [
     id: 4,
     title: "Transaction Coordinator",
     type: "Part-Time",
-    location: "Remote (AZ-based)",
+    location: "Remote (EL-based)",
     salary: "$28 – $35 / hour",
     summary:
       "Manage all documentation and compliance tasks for active transactions from contract to close. You'll ensure deadlines are met and all parties stay informed throughout the process.",
     requirements: [
       "Experience as a Transaction Coordinator or similar role",
-      "Familiarity with Arizona real estate contracts and disclosures",
+      "Familiarity with Eldoria real estate contracts and disclosures",
       "Strong organizational and multitasking skills",
       "Comfortable with DocuSign, Dotloop, or similar platforms",
       "Available 20–25 hours per week",
@@ -93,7 +93,7 @@ export default function CareersPage() {
         <h1 className="section-heading text-4xl md:text-5xl mb-4">Join the ABC Team</h1>
         <p className="text-gray-400 text-lg max-w-2xl mx-auto">
           We&apos;re always looking for driven, client-focused professionals who want to build a
-          rewarding career in Arizona real estate.
+          rewarding career in Eldoria real estate.
         </p>
       </section>
 
